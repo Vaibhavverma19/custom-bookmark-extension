@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+* {
+  font-family: "Krona One", sans-serif !important;
+
+}
+body {
+  margin: 0;
+  min-width: 600px;
+  padding: 10px;
+
+  font-family: "Krona One", sans-serif;
+
+  text-align: center;
+  background-color: #EEF7FF;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  gap: 5%;
+  font-family: "Krona One", sans-serif !important;
+  
+
+
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: red; */
+}
+#input-El {
+  width: 80%;
+  padding: 10px;
+  /* border: 2px solid rgb(125, 79, 218); */
+  border: 2px solid #7AB2B2;
+
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#input-El::placeholder{
+    color:#7AB2B2;
+}
+/* #save-btn{
+    background-color: rgb(125, 79, 218);
+    font-size: 20px;
+    padding: 5px 30px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+} */
+#tab-btn {
+  background-color: #7AB2B2;
+  font-size: 16px;
+  padding: 5px 30px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  border: 2px solid #7AB2B2;
+  cursor: pointer;
+
+  box-sizing: border-box;
+}
+#tab-btn:hover {
+  background-color: white;
+  font-size: 16px;
+  padding: 5px 30px;
+  color:#4D869C;
+  cursor: pointer;
+  border: none;
+  border: 2px solid #7AB2B2;
+  
+  box-sizing: border-box;
+  
+  border-radius: 25px;
+}
+#delete-btn {
+  background-color: transparent;
+  font-size: 16px;
+  padding: 5px 30px;
+  /* color: #4D869C; */
+  color:#7AB2B2;
+
+  border: 2px solid #7AB2B2;
+  cursor: pointer;
+  border-radius: 25px;
+}
+#delete-btn:hover{
+  background-color: #7AB2B2;
+  color: white;
+
+}
+#check-btn:hover{
+  background-color: #7AB2B2;
+  color: white;
+  
+}
+#check-btn {
+  background-color: transparent;
+  font-size: 16px;
+  padding: 5px 30px;
+  /* color: #4D869C; */
+  color:#7AB2B2;
+  cursor: pointer;
+  
+  border: 2px solid #7AB2B2;
+  border-radius: 25px;
+}
+ul {
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  /* background-color: #CDE8E5; */
+  background-color: #EEF7FF;
+
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3%;
+  /* justify-content: center; */
+  align-items: center;
+  box-sizing: border-box;
+}
+li {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  list-style: none;
+  width: 100%;
+  padding: 20px 20px;
+  /* background-color: rgb(217, 198, 254); */
+  background-color: #7AB2B2;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 6px;
+  text-align: left;
+  font-size: larger;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    
+}
+li input{
+    cursor: pointer;
+}
+/* .buttons{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+} */
+/* .savebuttons{
+    margin-top: 10px;
+   margin-bottom: 10px;
+}
+.deletebuttons{
+    margin-top: 10px;
+   margin-bottom: 10px;
+} */
